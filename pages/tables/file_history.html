@@ -411,6 +411,14 @@
                 <!-- Main content -->
                 <section class="content">
                     <div class="row">
+                        <form action="#" method="get" class="sidebar-form">
+                            <div class="input-group">
+                                <input type="text" name="q" class="form-control" placeholder="Search file history..."/>
+                                <span class="input-group-btn">
+                                    <button type='submit' name='seach' id='search-btn' class="btn btn-flat"><i class="fa fa-search"></i></button>
+                                </span>
+                            </div>
+                        </form>
                         <div class="col-xs-12">
                             <div class="box-body table-responsive">
                                 <table id="example1" class="table table-bordered table-hover">
@@ -1032,6 +1040,31 @@
                 </section><!-- /.content -->
             </aside><!-- /.right-side -->
         </div><!-- ./wrapper -->
+
+        <div class="chat_box">
+            <div class="chat_head"> Chat Box</div>
+            <div class="chat_body"> 
+            <div class="user"> Mr. Dwi</div>
+            </div>
+        </div>
+
+        <div class="msg_box" style="right:290px">
+            <div class="msg_head">Mr. Dwi
+                <div class="close">x</div>
+            </div>
+            <div class="msg_wrap">
+                <div class="msg_body">
+                    <div class="msg_a">This is from A   </div>
+                    <div class="msg_b">This is from B, and its amazingly kool nah... i know it even i liked it :)</div>
+                    <div class="msg_a">Wow, Thats great to hear from you man </div> 
+                    <div class="msg_push"></div>
+                </div>
+                <div class="msg_footer"><textarea class="msg_input" rows="4"></textarea></div>
+            </div>
+        </div>
+        <link href="../../style.css" rel="stylesheet">
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <script src="../../script.js"></script>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script src="../../js/ckeditor/ckeditor.js"></script>
