@@ -374,7 +374,7 @@
                     <div class="form-group">
                         <div class="col-xs-12">
                             <form action="../../index.html">
-                                <button type="submit" class="btn btn-info">Submit</button>
+                                <button type="submit" onclick="return berhasil()" class="btn btn-info">Submit</button>
                             </form>
                         </div>
                     </div>
@@ -418,7 +418,6 @@
         <script src="../../js/AdminLTE/app.js" type="text/javascript"></script>
         <!-- AdminLTE for demo purposes -->
         <script src="../../js/AdminLTE/demo.js" type="text/javascript"></script>
-   
         <!-- page script -->
         <script type="text/javascript">
             CKEDITOR.disableAutoInline = true;
@@ -439,6 +438,10 @@
                 });
                 $('#editor').ckeditor();
             });
+            function berhasil() {
+                alert('file berhasil diupload');
+                return true;
+            }
         </script>
     </body>
 </html>
