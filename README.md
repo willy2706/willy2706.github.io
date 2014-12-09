@@ -2,7 +2,8 @@
 
 IF3151:
 --------------
-**Group 7:**
+**Group 7: e-TA**
+
 **1. Reno Rasyad 13511045**
 
 **2. Arieza Nadya Sekarrini 13512017**
